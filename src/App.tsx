@@ -1,11 +1,6 @@
-
-
-
-
 function App() {
 
   return (
-    
     <>
       <div className="overflow-x-auto">
         <table className="table">
@@ -47,4 +42,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
