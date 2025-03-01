@@ -8,21 +8,21 @@
     "build": "tsc -b && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.0.9",
+    "@types/styled-components": "^5.1.34",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.9"
+    "styled-components": "^6.1.15"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@stylistic/eslint-plugin": "^4.1.0",
+    "@storybook/react-vite": "^8.6.2",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react-swc": "^3.8.0",
-    "daisyui": "^5.0.0-beta.8",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.19",
